@@ -16,9 +16,9 @@ A lightweight, production-ready Bash automation utility designed for enterprise 
 	```
 3. Run manual diagnostics to verify local pathing and telemetry logging:
 4. Verify the output log has been created successfully:
-  ```bash
-  cat dc_monitor.log
-  ```
+    ```bash
+    cat dc_monitor.log
+    ```
 
 ## ⏱️ Infrastructure Automation (System Cron)
 In production data center environments, health telemetry shouldn't be run manually. To automate this script to execute silently in the background **every hour on the hour**, use the built-in Linux cron utility:
